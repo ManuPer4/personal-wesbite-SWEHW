@@ -1,51 +1,63 @@
-/* Apply styles to an HTML tag */
+/* Apply burnt orange theme */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f8f0e3;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Class applied to multiple elements */
-.styled-text {
-    font-size: 18px;
-    color: #333;
-}
-
-/* ID applied to a specific element */
+/* Header Styling */
 #main-title {
-    color: #0073e6;
+    color: #BF5700; /* Burnt Orange */
     text-transform: uppercase;
 }
 
-/* Styling for sections using <div> */
+/* Styling for sections */
 .section {
-    background-color: #ffffff;
+    background-color: #fff;
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     width: 60%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #BF5700;
 }
 
-/* Styling for links */
+/* Text styling */
+.styled-text {
+    font-size: 18px;
+    color: #333;
+}
+
+/* List styling */
+.styled-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.styled-list li {
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+/* Links */
 a {
-    color: #ff6600;
+    color: #BF5700;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Change color on hover */
+/* Hover effect */
 a:hover {
-    color: #cc3300;
+    color: #8C3D00;
 }
 
-/* Modify box model properties */
+/* Image styling */
 img {
     width: 300px;
     height: auto;
-    border: 4px solid #0073e6;
+    border: 4px solid #BF5700;
     border-radius: 8px;
     padding: 5px;
 }
